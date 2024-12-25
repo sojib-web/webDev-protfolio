@@ -4,7 +4,7 @@ import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
 const ContactLeft = () => {
   return (
-    <div className=" space-y-5 w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne ">
+    <div className=" space-y-5 lgl:w-[35%] w-full h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] lgl:p-8 p-4 rounded-lg shadow-shadowOne ">
       <img
         className="w-full h-64 object-cover rounded-lg "
         src={contactImg}
